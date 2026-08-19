@@ -12,6 +12,14 @@ This project uses Machine Learning to estimate the price of a car based on vario
 
 The trained model is integrated into a Flask web application, allowing users to enter the required information through a web interface and receive an estimated car price.
 
+## 📸 Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Prediction Result
+![Prediction Result](screenshots/prediction.png)
+
 ## 🛠️ Technologies Used
 
 - Python
