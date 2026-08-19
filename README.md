@@ -1,52 +1,43 @@
 # 🚗 Car Price Prediction
 
-A machine learning web application that predicts the price of a car based on user-provided car details.
-
-The project uses a trained machine learning model and a Flask web application to provide predictions through a simple web interface. The application is deployed online using Render.
+A Machine Learning web application that predicts the price of a car based on user-provided details.
 
 ## 🌐 Live Demo
 
-👉 **Live Application:**  
-PASTE-YOUR-RENDER-URL-HERE
+[Try the Live Application](YOUR_RENDER_URL)
 
 ## 📌 Project Overview
 
-Car prices depend on several factors such as the characteristics of the vehicle and its specifications.
+This project uses Machine Learning to estimate the price of a car based on various features such as car specifications and other relevant attributes.
 
-This project uses machine learning to estimate the price of a car from the input provided by the user.
-
-The trained model is integrated with a Flask backend, while HTML and CSS are used to create the user interface.
-
-## ✨ Features
-
-- 🚗 Car price prediction
-- 🤖 Machine learning based prediction
-- 🌐 Flask web application
-- 📊 Trained prediction model
-- 🖥️ Simple and user-friendly interface
-- ⚡ Real-time prediction through the web interface
-- ☁️ Deployed online using Render
+The trained model is integrated into a Flask web application, allowing users to enter the required information through a web interface and receive an estimated car price.
 
 ## 🛠️ Technologies Used
 
-### Programming Language
 - Python
-
-### Machine Learning
-- Scikit-learn
-- XGBoost
-- NumPy
-- Pandas
-- Joblib
-
-### Web Development
 - Flask
+- Scikit-learn
+- Pandas
+- NumPy
 - HTML
 - CSS
-
-### Deployment
-- Render
 - Gunicorn
+- Render
+
+## 🤖 Machine Learning
+
+The project includes:
+
+- Data preprocessing
+- Feature processing
+- Model training
+- Model serialization using Pickle
+- Prediction through Flask
+- Web-based user interface
+
+The trained model is stored in:
+
+`model_car.pkl`
 
 ## 📂 Project Structure
 
